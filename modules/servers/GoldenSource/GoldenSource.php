@@ -16,7 +16,7 @@ function GoldenSource_MetaData()
         'APIVersion' => '1.0',
         'RequiresServer' => true,
     );
-}
+} 
 
 function GoldenSource_TestConnection(array $params)
 {
