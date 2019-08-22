@@ -49,7 +49,7 @@ class GoldenSourceAPIClient
      * @param $baseUrl
      * @param $userAgent
      */
-    public function __construct($apiToken, $baseUrl = 'https://GoldenSource.pro/api/v2/', $userAgent = '')
+    public function __construct($apiToken, $baseUrl = 'https://api.goldenSource.ir/', $userAgent = '')
     {
         $this->apiToken = $apiToken;
         $this->baseUrl = $baseUrl;
