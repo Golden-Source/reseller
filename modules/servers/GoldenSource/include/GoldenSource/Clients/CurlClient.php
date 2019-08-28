@@ -20,7 +20,7 @@ class CurlClient
         );
         curl_setopt($this->curl, CURLOPT_RETURNTRANSFER, true);
         curl_setopt($this->curl, CURLOPT_FOLLOWLOCATION, true);
-        curl_setopt($this->curl, CURLOPT_TIMEOUT, 30);
+        curl_setopt($this->curl, CURLOPT_TIMEOUT, 300);
         curl_setopt($this->curl, CURLOPT_HTTPHEADER, $headers);
         curl_setopt($this->curl, CURLOPT_HEADER, 0);
         curl_setopt($this->curl, CURLOPT_SSL_VERIFYHOST, 0);

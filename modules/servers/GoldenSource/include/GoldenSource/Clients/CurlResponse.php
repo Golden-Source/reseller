@@ -14,6 +14,10 @@ class CurlResponse
     {
         $this->response = curl_exec($curl);
         $this->statusCode = curl_getinfo($curl, CURLINFO_HTTP_CODE);
+        if (curl_errno($curl)) {
+            $error_msg = curl_error($curl);
+            print_r($error_msg);die;
+        }
     }
 
     public function getStatusCode(){
