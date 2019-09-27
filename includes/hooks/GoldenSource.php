@@ -1,7 +1,7 @@
 <?php
 /**
  * GoldenSource module by Amirhossein Matini (matiniamirhossein@gmail.com) 
- * © All right reserved for GoldenSource Team (GoldenSource.Pro)
+ * © All right reserved for GoldenSource Team (GoldenSource.ir)
  */
 use WHMCS\View\Menu\Item as MenuItem;
 add_hook('ClientAreaPrimaryNavbar', 1, function (MenuItem $primaryNavbar)
