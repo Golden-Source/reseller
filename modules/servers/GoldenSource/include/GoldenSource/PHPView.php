@@ -2,7 +2,7 @@
 namespace GoldenSource;
 /**
  * GoldenSource module by Amirhossein Matini (matiniamirhossein@gmail.com) 
- * © All right reserved for GoldenSource Team (GoldenSource.Pro)
+ * © All right reserved for GoldenSource Team (GoldenSource.ir)
  */
 class PHPView
 {
